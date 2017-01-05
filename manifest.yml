@@ -1,5 +1,5 @@
 applications:
-- name: word-collector
+- name: backend-template
   memory: 512M
   instances: 1
   random-route: true
