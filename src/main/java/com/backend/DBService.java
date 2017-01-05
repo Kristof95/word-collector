@@ -12,4 +12,7 @@ public interface DBService extends CrudRepository<Text, Long>
 
     @Override
     boolean exists(Long aLong);
+
+    @Override
+    Iterable<Text> findAll();
 }
