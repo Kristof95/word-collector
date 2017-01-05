@@ -9,7 +9,7 @@ node{
 		}
 	}
 	
-	stage('Deploy Cloud Foundry'){
+	stage('Deploy to Cloud Foundry'){
 		sh '''
 			password=`cat pw`
 			cf login -a "https://api.run.pivotal.io/" -o "devops-app-test" -s "development" -u "matrixsprt@gmail.com" -p "$password"
