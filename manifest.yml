@@ -3,3 +3,5 @@ applications:
   memory: 512M
   instances: 1
   random-route: true
+  buildpack: https://github.com/Kristof95/word-collector.git
+  domain: cfapps.io
