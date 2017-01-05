@@ -7,3 +7,4 @@ applications:
   domain: cfapps.io
   path: target/backend-template-0.0.1-SNAPSHOT.jar
   host: https://word-collector.cfapps.io/
+
