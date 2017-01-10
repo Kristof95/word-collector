@@ -29,10 +29,15 @@ public class HomeController
         return new ResponseEntity<>(HttpStatus.CONFLICT);
     }
 
+//    @RequestMapping(method=RequestMethod.GET)
+//    public List<Text> getAll() {
+//        List<Text> textContainer = (ArrayList<Text>) dbService.findAll();
+//        return  textContainer;
+//    }
+
     @RequestMapping(method=RequestMethod.GET)
-    public List<Text> getAll() {
-        List<Text> textContainer = (ArrayList<Text>) dbService.findAll();
-        return  textContainer;
+    public String deployed(){
+        return "Deployed!";
     }
 
     private int randomID(){
