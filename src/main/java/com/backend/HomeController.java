@@ -35,7 +35,7 @@ public class HomeController
 //        return  textContainer;
 //    }
 
-    @RequestMapping(method=RequestMethod.GET)
+    @RequestMapping(value="/", method = RequestMethod.GET)
     public String deployed(){
         return "Deployed!";
     }
