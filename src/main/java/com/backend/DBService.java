@@ -15,6 +15,4 @@ public interface DBService extends CrudRepository<Text, Long>
 
     @Override
     Iterable<Text> findAll();
-
-    String findBy
 }
